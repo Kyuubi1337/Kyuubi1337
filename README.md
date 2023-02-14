@@ -1,3 +1,4 @@
+```python
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
@@ -26,3 +27,4 @@ class Programmer:
 
 me = Programmer()
 me.say_hello()
+```
