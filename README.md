@@ -17,7 +17,7 @@ class Programmer:
                 "location": "unknown"
             },
             "public": {
-                "total_projects": 0,
+                "total_projects": 2,
                 "location": "https://github.com/Kyuubi1337?tab=repositories"
             }
         }
