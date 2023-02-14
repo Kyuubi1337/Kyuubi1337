@@ -1,16 +1,28 @@
-### Hi there 👋
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 
-<!--
-**Kyuubi1337/Kyuubi1337** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+from github import README
 
-Here are some ideas to get you started:
+class Programmer:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    def __init__(self):
+        self.aliase = "Kyuubi"
+        self.language = "en_GB"
+        self.hobbies = ["Gaming", "Sports", "Programming"]
+        self.projects = {
+            "paid": {
+                "earnings": 0,
+                "total_projects": 0,
+                "location": "unknown"
+            },
+            "public": {
+                "total_projects": 0,
+                "location": "https://github.com/Kyuubi1337?tab=repositories"
+            }
+        }
+
+    def say_hello(self):
+        print("Hey there, I hope you find some of my projects interesting.")
+
+me = Programmer()
+me.say_hello()
