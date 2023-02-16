@@ -1,7 +1,4 @@
 ```python
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
-
 from github import README
 
 class Programmer:
@@ -17,9 +14,15 @@ class Programmer:
                 "location": "unknown"
             },
             "public": {
-                "total_projects": 2,
+                "total_projects": 1,
                 "location": "https://github.com/Kyuubi1337?tab=repositories"
             }
+        }
+        self.socials = {
+            "Youtube": "https://www.youtube.com/channel/UCYNv4KxXY1DjoQevfbnGsyA",
+            "Reddit": "https://www.reddit.com/user/Kyuubi9669",
+            "Spotify": "https://open.spotify.com/user/316jo4sabvpiivd6ti5y3bnlo3km?si=a8c47ff66ee447b2&nd=1",
+            "Discord": "Kyuubi#4199"
         }
 
     def say_hello(self):
@@ -27,4 +30,4 @@ class Programmer:
 
 me = Programmer()
 me.say_hello()
-```
+````
